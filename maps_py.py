@@ -101,5 +101,3 @@ with open('map.html', 'r') as f:
 # Display the HTML map in Streamlit
 st.title("Mining Locations Map")
 html(map_html, height=600)  # Adjust height as needed
-#Run the Code
-streamlit run Maps.py
