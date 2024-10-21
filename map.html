@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_30a226c1bfe574eb406abe3395a367db {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_30a226c1bfe574eb406abe3395a367db" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_30a226c1bfe574eb406abe3395a367db = L.map(
+                "map_30a226c1bfe574eb406abe3395a367db",
+                {
+                    center: [45.0, 85.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_49602c63ce954903914c4baa7fbe0b51 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_49602c63ce954903914c4baa7fbe0b51.addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var marker_8deb3ce48e3e28b924cb5f79bc31a7ed = L.marker(
+                [49.8, 73.117],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_83f66aad5d06a7cc5cc4f28c713134d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8deb3ce48e3e28b924cb5f79bc31a7ed.setIcon(icon_83f66aad5d06a7cc5cc4f28c713134d7);
+        
+    
+        var popup_74bd73b4137e3d1b581cc8e224deca9d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1f639132da7e82ae6040a6ff3fa430cb = $(`<div id="html_1f639132da7e82ae6040a6ff3fa430cb" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Kounrad<br><b>Country:</b> Kazakhstan<br><b>Resource:</b> Cu</div>`)[0];
+                popup_74bd73b4137e3d1b581cc8e224deca9d.setContent(html_1f639132da7e82ae6040a6ff3fa430cb);
+            
+        
+
+        marker_8deb3ce48e3e28b924cb5f79bc31a7ed.bindPopup(popup_74bd73b4137e3d1b581cc8e224deca9d)
+        ;
+
+        
+    
+    
+            marker_8deb3ce48e3e28b924cb5f79bc31a7ed.bindTooltip(
+                `<div>
+                     Kounrad
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca71b817185be1978b65339bfa3aadd7 = L.marker(
+                [48.2217, 82.6681],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_6bd88c2bb8860e35f365be72884c3c16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ca71b817185be1978b65339bfa3aadd7.setIcon(icon_6bd88c2bb8860e35f365be72884c3c16);
+        
+    
+        var popup_6af07519c7ec6d264e8c51f2c92fed9b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ec837be821a3ad7b7c6bf4c98c42d1e1 = $(`<div id="html_ec837be821a3ad7b7c6bf4c98c42d1e1" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Aktogai<br><b>Country:</b> Kazakhstan<br><b>Resource:</b> Cu</div>`)[0];
+                popup_6af07519c7ec6d264e8c51f2c92fed9b.setContent(html_ec837be821a3ad7b7c6bf4c98c42d1e1);
+            
+        
+
+        marker_ca71b817185be1978b65339bfa3aadd7.bindPopup(popup_6af07519c7ec6d264e8c51f2c92fed9b)
+        ;
+
+        
+    
+    
+            marker_ca71b817185be1978b65339bfa3aadd7.bindTooltip(
+                `<div>
+                     Aktogai
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4164338ccf0744244d225beb5301239e = L.marker(
+                [40.8, 70.2],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_5fb61fdd6da521199c8a544997010f90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4164338ccf0744244d225beb5301239e.setIcon(icon_5fb61fdd6da521199c8a544997010f90);
+        
+    
+        var popup_6b73600d561b612f1ec768864561b0d4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1ade5609c63c02ea4d9715ac0e481d0d = $(`<div id="html_1ade5609c63c02ea4d9715ac0e481d0d" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Kal’makyr<br><b>Country:</b> Uzbekistan<br><b>Resource:</b> Cu</div>`)[0];
+                popup_6b73600d561b612f1ec768864561b0d4.setContent(html_1ade5609c63c02ea4d9715ac0e481d0d);
+            
+        
+
+        marker_4164338ccf0744244d225beb5301239e.bindPopup(popup_6b73600d561b612f1ec768864561b0d4)
+        ;
+
+        
+    
+    
+            marker_4164338ccf0744244d225beb5301239e.bindTooltip(
+                `<div>
+                     Kal’makyr
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b53c663c5f8492c2e376dd9c42a2f358 = L.marker(
+                [43.0183, 106.8626],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_4be3f49839aeacace83a8fe53817c044 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b53c663c5f8492c2e376dd9c42a2f358.setIcon(icon_4be3f49839aeacace83a8fe53817c044);
+        
+    
+        var popup_68ab40040278c36541a0eef2e7b2597d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ff64272642968a91fd3a1dde7e84438f = $(`<div id="html_ff64272642968a91fd3a1dde7e84438f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Oyu Tolgoi<br><b>Country:</b> Mongolia<br><b>Resource:</b> Cu-Au</div>`)[0];
+                popup_68ab40040278c36541a0eef2e7b2597d.setContent(html_ff64272642968a91fd3a1dde7e84438f);
+            
+        
+
+        marker_b53c663c5f8492c2e376dd9c42a2f358.bindPopup(popup_68ab40040278c36541a0eef2e7b2597d)
+        ;
+
+        
+    
+    
+            marker_b53c663c5f8492c2e376dd9c42a2f358.bindTooltip(
+                `<div>
+                     Oyu Tolgoi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d405dbf786a17a4c2ec87c54623d836 = L.marker(
+                [49.3, 120.8],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_b41bd364df2def92e491e0104d790bde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4d405dbf786a17a4c2ec87c54623d836.setIcon(icon_b41bd364df2def92e491e0104d790bde);
+        
+    
+        var popup_9cd5b262b3b06940dbfc32e839488443 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_010c402dea4013ae23e71a8c26cf2974 = $(`<div id="html_010c402dea4013ae23e71a8c26cf2974" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Chalukou<br><b>Country:</b> China<br><b>Resource:</b> Cu-Mo</div>`)[0];
+                popup_9cd5b262b3b06940dbfc32e839488443.setContent(html_010c402dea4013ae23e71a8c26cf2974);
+            
+        
+
+        marker_4d405dbf786a17a4c2ec87c54623d836.bindPopup(popup_9cd5b262b3b06940dbfc32e839488443)
+        ;
+
+        
+    
+    
+            marker_4d405dbf786a17a4c2ec87c54623d836.bindTooltip(
+                `<div>
+                     Chalukou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e95e0fb4b0d47aa00d445e228886ac00 = L.marker(
+                [47.8864, 106.9057],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_ed54241d5fcf8597e7fd96537ba69708 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e95e0fb4b0d47aa00d445e228886ac00.setIcon(icon_ed54241d5fcf8597e7fd96537ba69708);
+        
+    
+        var popup_2aeac322f9aee107e570f9aba94c55f6 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_62416ad92db641111d73bb852567c97a = $(`<div id="html_62416ad92db641111d73bb852567c97a" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Ulaanbaatar<br><b>Mining Name:</b> Oyu Tolgoi<br><b>Resource:</b> Cu-Au</div>`)[0];
+                popup_2aeac322f9aee107e570f9aba94c55f6.setContent(html_62416ad92db641111d73bb852567c97a);
+            
+        
+
+        marker_e95e0fb4b0d47aa00d445e228886ac00.bindPopup(popup_2aeac322f9aee107e570f9aba94c55f6)
+        ;
+
+        
+    
+    
+            marker_e95e0fb4b0d47aa00d445e228886ac00.bindTooltip(
+                `<div>
+                     Ulaanbaatar (Oyu Tolgoi - Cu-Au)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ca8e2e6e0e06b2b824c75a985565fb1 = L.marker(
+                [49.0511, 104.3195],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_4ae9d14e6f2ae84043f85b0fa14979f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ca8e2e6e0e06b2b824c75a985565fb1.setIcon(icon_4ae9d14e6f2ae84043f85b0fa14979f9);
+        
+    
+        var popup_f478c361c3f0425bd69427aa826caa07 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_755825696cde04dad46fb65c57e26b0a = $(`<div id="html_755825696cde04dad46fb65c57e26b0a" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Bulgan<br><b>Mining Name:</b> Erdenet<br><b>Resource:</b> Cu-Mo</div>`)[0];
+                popup_f478c361c3f0425bd69427aa826caa07.setContent(html_755825696cde04dad46fb65c57e26b0a);
+            
+        
+
+        marker_1ca8e2e6e0e06b2b824c75a985565fb1.bindPopup(popup_f478c361c3f0425bd69427aa826caa07)
+        ;
+
+        
+    
+    
+            marker_1ca8e2e6e0e06b2b824c75a985565fb1.bindTooltip(
+                `<div>
+                     Bulgan (Erdenet - Cu-Mo)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19821c66fb2ac3e7b4e6f4fe5a9fa8eb = L.marker(
+                [49.4753, 105.94],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_b46e798f03e3c0a5ba565989869aaab8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_19821c66fb2ac3e7b4e6f4fe5a9fa8eb.setIcon(icon_b46e798f03e3c0a5ba565989869aaab8);
+        
+    
+        var popup_b411da61047aaa5d114ae9de016d9572 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_13e777acf36d47ce85b9497eefc0ba95 = $(`<div id="html_13e777acf36d47ce85b9497eefc0ba95" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Darkhan-Uul<br><b>Mining Name:</b> Asgat<br><b>Resource:</b> Ag</div>`)[0];
+                popup_b411da61047aaa5d114ae9de016d9572.setContent(html_13e777acf36d47ce85b9497eefc0ba95);
+            
+        
+
+        marker_19821c66fb2ac3e7b4e6f4fe5a9fa8eb.bindPopup(popup_b411da61047aaa5d114ae9de016d9572)
+        ;
+
+        
+    
+    
+            marker_19821c66fb2ac3e7b4e6f4fe5a9fa8eb.bindTooltip(
+                `<div>
+                     Darkhan-Uul (Asgat - Ag)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf795c6597ce68f46e0f1d1189968bd0 = L.marker(
+                [43.4361, 113.1573],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_afe92ca3153aca291c7467169ef99f84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bf795c6597ce68f46e0f1d1189968bd0.setIcon(icon_afe92ca3153aca291c7467169ef99f84);
+        
+    
+        var popup_028d7d1a68023b051e6969814edc1061 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_7b0e80b2c5ce4231b979ac98b03f9c9b = $(`<div id="html_7b0e80b2c5ce4231b979ac98b03f9c9b" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Dornod<br><b>Mining Name:</b> Tsagaan Suvarga<br><b>Resource:</b> Cu-Mo</div>`)[0];
+                popup_028d7d1a68023b051e6969814edc1061.setContent(html_7b0e80b2c5ce4231b979ac98b03f9c9b);
+            
+        
+
+        marker_bf795c6597ce68f46e0f1d1189968bd0.bindPopup(popup_028d7d1a68023b051e6969814edc1061)
+        ;
+
+        
+    
+    
+            marker_bf795c6597ce68f46e0f1d1189968bd0.bindTooltip(
+                `<div>
+                     Dornod (Tsagaan Suvarga - Cu-Mo)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93ad8236a837e655a5c89c7558d676a6 = L.marker(
+                [43.702, 103.9627],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_f1f1d9d65b457e2d112f1ed4456826c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_93ad8236a837e655a5c89c7558d676a6.setIcon(icon_f1f1d9d65b457e2d112f1ed4456826c1);
+        
+    
+        var popup_ae32327f6b6e8fed0b0870ca6e6de35c = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_788f231721e8c75080c1024bb06d3a20 = $(`<div id="html_788f231721e8c75080c1024bb06d3a20" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Davaa<br><b>Mining Name:</b> Tavan Tolgoi<br><b>Resource:</b> Coal</div>`)[0];
+                popup_ae32327f6b6e8fed0b0870ca6e6de35c.setContent(html_788f231721e8c75080c1024bb06d3a20);
+            
+        
+
+        marker_93ad8236a837e655a5c89c7558d676a6.bindPopup(popup_ae32327f6b6e8fed0b0870ca6e6de35c)
+        ;
+
+        
+    
+    
+            marker_93ad8236a837e655a5c89c7558d676a6.bindTooltip(
+                `<div>
+                     Davaa (Tavan Tolgoi - Coal)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a1f8582023793be2512ed218ff2415c = L.marker(
+                [49.2161, 105.585],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_1c8660f33a94804e66cee1f715a48f78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a1f8582023793be2512ed218ff2415c.setIcon(icon_1c8660f33a94804e66cee1f715a48f78);
+        
+    
+        var popup_d25174108798612cf3c27b46471f3288 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_56c3939a20675e7ee9bbf9b23fbbedf7 = $(`<div id="html_56c3939a20675e7ee9bbf9b23fbbedf7" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Selenge<br><b>Mining Name:</b> Nariin Sukhait<br><b>Resource:</b> Coal</div>`)[0];
+                popup_d25174108798612cf3c27b46471f3288.setContent(html_56c3939a20675e7ee9bbf9b23fbbedf7);
+            
+        
+
+        marker_1a1f8582023793be2512ed218ff2415c.bindPopup(popup_d25174108798612cf3c27b46471f3288)
+        ;
+
+        
+    
+    
+            marker_1a1f8582023793be2512ed218ff2415c.bindTooltip(
+                `<div>
+                     Selenge (Nariin Sukhait - Coal)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_076f62f3868e0f7f32eaf6c95be98fdb = L.marker(
+                [46.9461, 110.3269],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_ec23084065ea4c03935cd444bbc0b46a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_076f62f3868e0f7f32eaf6c95be98fdb.setIcon(icon_ec23084065ea4c03935cd444bbc0b46a);
+        
+    
+        var popup_6218b77e2d3703b6fb8376723e6e042e = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_eed64d6434380d9420751506da2fb24a = $(`<div id="html_eed64d6434380d9420751506da2fb24a" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Khentii<br><b>Mining Name:</b> Shuteen<br><b>Resource:</b> Cu</div>`)[0];
+                popup_6218b77e2d3703b6fb8376723e6e042e.setContent(html_eed64d6434380d9420751506da2fb24a);
+            
+        
+
+        marker_076f62f3868e0f7f32eaf6c95be98fdb.bindPopup(popup_6218b77e2d3703b6fb8376723e6e042e)
+        ;
+
+        
+    
+    
+            marker_076f62f3868e0f7f32eaf6c95be98fdb.bindTooltip(
+                `<div>
+                     Khentii (Shuteen - Cu)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ddc9b5460c0b1e101a9bf6dcd975629 = L.marker(
+                [49.2982, 105.4542],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_d64e508f5c8c4dc06139f339ca803a1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ddc9b5460c0b1e101a9bf6dcd975629.setIcon(icon_d64e508f5c8c4dc06139f339ca803a1b);
+        
+    
+        var popup_bae3c77187a75b3ce9aae9b29ee522ff = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_689c2f6d7ff5b289659e0248c6ac35c1 = $(`<div id="html_689c2f6d7ff5b289659e0248c6ac35c1" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Orkhon<br><b>Mining Name:</b> Burenkhaan<br><b>Resource:</b> Cu</div>`)[0];
+                popup_bae3c77187a75b3ce9aae9b29ee522ff.setContent(html_689c2f6d7ff5b289659e0248c6ac35c1);
+            
+        
+
+        marker_1ddc9b5460c0b1e101a9bf6dcd975629.bindPopup(popup_bae3c77187a75b3ce9aae9b29ee522ff)
+        ;
+
+        
+    
+    
+            marker_1ddc9b5460c0b1e101a9bf6dcd975629.bindTooltip(
+                `<div>
+                     Orkhon (Burenkhaan - Cu)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4dfca60583632766f469d500f99f708 = L.marker(
+                [44.0553, 102.834],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_abbc5330ef492d87ee0401fba66d25da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f4dfca60583632766f469d500f99f708.setIcon(icon_abbc5330ef492d87ee0401fba66d25da);
+        
+    
+        var popup_d6f4a7f3fe3f0ce80296e863de6d80ea = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_7c32817f1fcfda0e71771cd7a04cccd3 = $(`<div id="html_7c32817f1fcfda0e71771cd7a04cccd3" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Uvurkhangai<br><b>Mining Name:</b> Zuun Mod<br><b>Resource:</b> Mo</div>`)[0];
+                popup_d6f4a7f3fe3f0ce80296e863de6d80ea.setContent(html_7c32817f1fcfda0e71771cd7a04cccd3);
+            
+        
+
+        marker_f4dfca60583632766f469d500f99f708.bindPopup(popup_d6f4a7f3fe3f0ce80296e863de6d80ea)
+        ;
+
+        
+    
+    
+            marker_f4dfca60583632766f469d500f99f708.bindTooltip(
+                `<div>
+                     Uvurkhangai (Zuun Mod - Mo)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d61e3afce074820deafe273da9f22db = L.marker(
+                [42.9344, 104.0352],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_128999536f75f9a12c5cb188de07fdec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d61e3afce074820deafe273da9f22db.setIcon(icon_128999536f75f9a12c5cb188de07fdec);
+        
+    
+        var popup_0ad6a0c71a8bc19951eb50ea9a169170 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_5e396599e486d1c68ec1bd630ef6484a = $(`<div id="html_5e396599e486d1c68ec1bd630ef6484a" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Dundgovi<br><b>Mining Name:</b> Bayan Airag<br><b>Resource:</b> Cu-Au</div>`)[0];
+                popup_0ad6a0c71a8bc19951eb50ea9a169170.setContent(html_5e396599e486d1c68ec1bd630ef6484a);
+            
+        
+
+        marker_7d61e3afce074820deafe273da9f22db.bindPopup(popup_0ad6a0c71a8bc19951eb50ea9a169170)
+        ;
+
+        
+    
+    
+            marker_7d61e3afce074820deafe273da9f22db.bindTooltip(
+                `<div>
+                     Dundgovi (Bayan Airag - Cu-Au)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0151e6b8a64dea183bbd43dc8f85fa9e = L.marker(
+                [46.1, 91.8],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_a5418cd88f282e679858a2670303d97e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0151e6b8a64dea183bbd43dc8f85fa9e.setIcon(icon_a5418cd88f282e679858a2670303d97e);
+        
+    
+        var popup_74d2cc418f6dadc33e2c7dca751c436d = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_37c58eeda9887facd0ac7a3149838dc4 = $(`<div id="html_37c58eeda9887facd0ac7a3149838dc4" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Govi-Altai<br><b>Mining Name:</b> Altan Tsagaan Ovoo<br><b>Resource:</b> Mo</div>`)[0];
+                popup_74d2cc418f6dadc33e2c7dca751c436d.setContent(html_37c58eeda9887facd0ac7a3149838dc4);
+            
+        
+
+        marker_0151e6b8a64dea183bbd43dc8f85fa9e.bindPopup(popup_74d2cc418f6dadc33e2c7dca751c436d)
+        ;
+
+        
+    
+    
+            marker_0151e6b8a64dea183bbd43dc8f85fa9e.bindTooltip(
+                `<div>
+                     Govi-Altai (Altan Tsagaan Ovoo - Mo)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_354fc95cd683ab56b6f58aed27b24608 = L.marker(
+                [48.5152, 91.7111],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_24d1033c1a8c4549a262708447d5643b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_354fc95cd683ab56b6f58aed27b24608.setIcon(icon_24d1033c1a8c4549a262708447d5643b);
+        
+    
+        var popup_49b1a975bd53ab95cdc41d69dab9f4e7 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_afdbc4d26edd7d83568671af7f097aa5 = $(`<div id="html_afdbc4d26edd7d83568671af7f097aa5" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Khovd<br><b>Mining Name:</b> Tsenkher<br><b>Resource:</b> Cu</div>`)[0];
+                popup_49b1a975bd53ab95cdc41d69dab9f4e7.setContent(html_afdbc4d26edd7d83568671af7f097aa5);
+            
+        
+
+        marker_354fc95cd683ab56b6f58aed27b24608.bindPopup(popup_49b1a975bd53ab95cdc41d69dab9f4e7)
+        ;
+
+        
+    
+    
+            marker_354fc95cd683ab56b6f58aed27b24608.bindTooltip(
+                `<div>
+                     Khovd (Tsenkher - Cu)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27855d4e770d994350ac8ff9dcb33edd = L.marker(
+                [43.5847, 100.0],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_f2a44520634aa5cf9dc9b6883ac0dc64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_27855d4e770d994350ac8ff9dcb33edd.setIcon(icon_f2a44520634aa5cf9dc9b6883ac0dc64);
+        
+    
+        var popup_aee98f58bb3e3ba3746424efdba8071b = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_24af4e7bd35e0ba63c703cbe1edfff6e = $(`<div id="html_24af4e7bd35e0ba63c703cbe1edfff6e" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Bayankhongor<br><b>Mining Name:</b> Shariin Gol<br><b>Resource:</b> Cu</div>`)[0];
+                popup_aee98f58bb3e3ba3746424efdba8071b.setContent(html_24af4e7bd35e0ba63c703cbe1edfff6e);
+            
+        
+
+        marker_27855d4e770d994350ac8ff9dcb33edd.bindPopup(popup_aee98f58bb3e3ba3746424efdba8071b)
+        ;
+
+        
+    
+    
+            marker_27855d4e770d994350ac8ff9dcb33edd.bindTooltip(
+                `<div>
+                     Bayankhongor (Shariin Gol - Cu)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fed958fa848407ddb4b740d00efb1e5c = L.marker(
+                [48.0353, 91.0907],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_0bb3cda604914563607d4f79b2efa063 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fed958fa848407ddb4b740d00efb1e5c.setIcon(icon_0bb3cda604914563607d4f79b2efa063);
+        
+    
+        var popup_4ecc0b14b8824eded1681d3e6d8de928 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_65d99011beaf06c70aea6ab80fed47a7 = $(`<div id="html_65d99011beaf06c70aea6ab80fed47a7" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Zavkhan<br><b>Mining Name:</b> Mandal Khairkhan<br><b>Resource:</b> Au</div>`)[0];
+                popup_4ecc0b14b8824eded1681d3e6d8de928.setContent(html_65d99011beaf06c70aea6ab80fed47a7);
+            
+        
+
+        marker_fed958fa848407ddb4b740d00efb1e5c.bindPopup(popup_4ecc0b14b8824eded1681d3e6d8de928)
+        ;
+
+        
+    
+    
+            marker_fed958fa848407ddb4b740d00efb1e5c.bindTooltip(
+                `<div>
+                     Zavkhan (Mandal Khairkhan - Au)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f2f90c1306e7de68dfefc4ecf18835b = L.marker(
+                [48.1571, 92.0786],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_08831040c371964650944bc8e3ba1aee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f2f90c1306e7de68dfefc4ecf18835b.setIcon(icon_08831040c371964650944bc8e3ba1aee);
+        
+    
+        var popup_6cd4b520cd79d4108d7f188155588d26 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_db1011eb455def14b7d97ca11078c519 = $(`<div id="html_db1011eb455def14b7d97ca11078c519" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Sukhbaatar<br><b>Mining Name:</b> Bordkhonin<br><b>Resource:</b> Mo</div>`)[0];
+                popup_6cd4b520cd79d4108d7f188155588d26.setContent(html_db1011eb455def14b7d97ca11078c519);
+            
+        
+
+        marker_0f2f90c1306e7de68dfefc4ecf18835b.bindPopup(popup_6cd4b520cd79d4108d7f188155588d26)
+        ;
+
+        
+    
+    
+            marker_0f2f90c1306e7de68dfefc4ecf18835b.bindTooltip(
+                `<div>
+                     Sukhbaatar (Bordkhonin - Mo)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_078869cae476c9a5a28bcd17b99ef512 = L.marker(
+                [48.1503, 92.2406],
+                {}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var icon_4e04ef52e64c5b1e381fff990f422fda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_078869cae476c9a5a28bcd17b99ef512.setIcon(icon_4e04ef52e64c5b1e381fff990f422fda);
+        
+    
+        var popup_4477e99d8efb438fbad12f8da1981e6c = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_682a1ee5d98662d48c2d0efefd3d5435 = $(`<div id="html_682a1ee5d98662d48c2d0efefd3d5435" style="width: 100.0%; height: 100.0%;"><b>Province:</b> Uvs<br><b>Mining Name:</b> Tsav<br><b>Resource:</b> Cu</div>`)[0];
+                popup_4477e99d8efb438fbad12f8da1981e6c.setContent(html_682a1ee5d98662d48c2d0efefd3d5435);
+            
+        
+
+        marker_078869cae476c9a5a28bcd17b99ef512.bindPopup(popup_4477e99d8efb438fbad12f8da1981e6c)
+        ;
+
+        
+    
+    
+            marker_078869cae476c9a5a28bcd17b99ef512.bindTooltip(
+                `<div>
+                     Uvs (Tsav - Cu)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var tile_layer_df0cd0659ea188b928b39b19d81dbaab = L.tileLayer(
+                "https://earthengine.googleapis.com/v1/projects/otgongunj/maps/e8f78fa072f1b7b248954232166c633b-c5c02ec26cddaff43075a0c8a64fcd13/tiles/{z}/{x}/{y}",
+                {"attribution": "Google Earth Engine", "detectRetina": false, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_df0cd0659ea188b928b39b19d81dbaab.addTo(map_30a226c1bfe574eb406abe3395a367db);
+        
+    
+            var layer_control_20ff612c3de8e89cd02e55700f0ab972_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_49602c63ce954903914c4baa7fbe0b51,
+                },
+                overlays :  {
+                    "Sentinel-2 Imagery" : tile_layer_df0cd0659ea188b928b39b19d81dbaab,
+                },
+            };
+            let layer_control_20ff612c3de8e89cd02e55700f0ab972 = L.control.layers(
+                layer_control_20ff612c3de8e89cd02e55700f0ab972_layers.base_layers,
+                layer_control_20ff612c3de8e89cd02e55700f0ab972_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_30a226c1bfe574eb406abe3395a367db);
+
+        
+</script>
+</html>
